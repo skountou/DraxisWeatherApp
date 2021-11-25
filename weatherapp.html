@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weatherapp.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="basic-info">
+                <div class="date-time-container">
+                    <div class="time" id="time">
+                        12:30
+                    </div>
+                    <div class="date" id="date">
+                        Tuesday,23 November
+                    </div>
+
+                    <div class="others" id="current-weather-items">
+                        
+                    </div>
+                </div>
+                <div class="location-container">
+                    <div class="time-zone" id="time-zone"> GMT +2.00</div>
+                    <div class="country" id="country">Thessaloniki, Greece</div>
+                </div>
+            </div>
+            <div class="future-forecast">
+                <div class="today" id="current-forecast">
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                    <div class="other">
+                        <div class="day">Monday</div>
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                </div>
+
+                <div class="weather-forecast" id="weather-forecast">
+                    <div class="weather-forecast-item">
+                        <div class="day">Tuesday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <div class="day">Wednesday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <div class="day">Thursday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <div class="day">Friday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <div class="day">Saturday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <div class="day">Sunday</div>
+                        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                        <div class="temp">Night 25.8&#176; C</div>
+                        <div class="temp">Day 15.8&#176; C</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script type="text/javascript" src="weatherapp.js" async defer></script>
+    </body>
+</html>
